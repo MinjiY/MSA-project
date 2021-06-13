@@ -17,7 +17,7 @@
 
 ## 📚 요구사항 분석
 
-
+[사용자 요구 사항 문서](https://github.com/youminji/MSA-project/blob/master/doc/User_Requirements_Specification.pdf) 
 
 
 
@@ -68,6 +68,17 @@
 ## ⚙️ 시스템 구성도
 
 ![image-20210614045947863](README.assets/image-20210614045947863.png)
+
+
+
+## 🔊 개선점
+
+1. Flask로 페이지 수정
+2. 위치 기반 마켓 구현을 위해 MAP API 사용
+3. No-SQL 사용 경험을 위해 판매자, 구매자 채팅기능 구현
+4. AWS, GCP와 같은 클라우드 플랫폼으로의 서비스 배포
+5. k8s로 컨테이너 관리
+6. ELK vs EFK : 검색 서비스를 위해 ELK를 계획했으므로 서버 모니터링을 위해서는 EFK(ElasticSearch + Fluentd + Kibana)를 사용해보는 것도 좋을 것 같다.
 
 
 
